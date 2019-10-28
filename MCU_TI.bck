@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC3220SM2ARGKT
+D 64kB Flash, 8kB RAM, QFN-64
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f5247.pdf
+$ENDCMP
+#
+$CMP MSP430F5249IRGC
+D 128kB Flash, 8kB RAM, QFN-64
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f5249.pdf
+$ENDCMP
+#
+#End Doc Library
