@@ -18,4 +18,8 @@
   (lib (name Sensor)(type KiCad)(uri ${KISYSMOD}/Sensor.pretty)(options "")(descr ""))
   (lib (name MountingHole)(type KiCad)(uri ${KISYSMOD}/MountingHole.pretty)(options "")(descr ""))
   (lib (name Fiducial)(type KiCad)(uri ${KISYSMOD}/Fiducial.pretty)(options "")(descr ""))
+  (lib (name TIMOD_footprints)(type KiCad)(uri ${KIPRJMOD}/ul_CC3220MODASF12MONR/KiCAD/2020-05-13_17-39-37/footprints.pretty)(options "")(descr ""))
+  (lib (name Package_BGA)(type KiCad)(uri ${KISYSMOD}/Package_BGA.pretty)(options "")(descr ""))
+  (lib (name TMP006_footprints)(type KiCad)(uri ${KIPRJMOD}/ul_TMP006AIYZFR/KiCAD/2020-07-25_16-21-59/footprints.pretty)(options "")(descr ""))
+  (lib (name TestPoint)(type KiCad)(uri ${KISYSMOD}/TestPoint.pretty)(options "")(descr ""))
 )

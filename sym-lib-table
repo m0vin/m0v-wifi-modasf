@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name tmp006)(type Legacy)(uri ${KIPRJMOD}/tmp006.lib)(options "")(descr ""))
+  (lib (name CC3220MODASF12MONR)(type Legacy)(uri ${KIPRJMOD}/ul_CC3220MODASF12MONR/KiCAD/2020-05-13_17-39-37/2020-05-13_17-39-37.lib)(options "")(descr ""))
+  (lib (name TMP006AIYZFR)(type Legacy)(uri ${KIPRJMOD}/ul_TMP006AIYZFR/KiCAD/2020-07-25_16-21-59/2020-07-25_16-21-59.lib)(options "")(descr ""))
+  (lib (name wifi-rescue)(type Legacy)(uri ${KIPRJMOD}/wifi-rescue.lib)(options "")(descr ""))
 )
