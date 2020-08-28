@@ -908,19 +908,6 @@ F 5 "SML-311UTT86" H 10000 5550 50  0001 C CNN "MFG Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J24
-U 1 1 5DCD7140
-P 10475 5775
-F 0 "J24" H 10555 5767 50  0000 L CNN
-F 1 "Conn_01x02" H 10555 5676 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10475 5775 50  0001 C CNN
-F 3 "~" H 10475 5775 50  0001 C CNN
-F 4 "Wurth Elektronik" H 10475 5775 50  0001 C CNN "MFG Name"
-F 5 "'61300211121" H 10475 5775 50  0001 C CNN "MFG Part Num"
-	1    10475 5775
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0126
 U 1 1 5DCDDC1C
 P 10575 5975
@@ -1094,19 +1081,6 @@ F 5 "MJTP1117" H 7975 2725 50  0001 C CNN "MFG Part Num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_DIP_x01 SW3
-U 1 1 5DE5F062
-P 8000 3275
-F 0 "SW3" H 8000 3542 50  0000 C CNN
-F 1 "SW_DIP_x01" H 8000 3451 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS" H 8000 3275 50  0001 C CNN
-F 3 "~" H 8000 3275 50  0001 C CNN
-F 4 "APEM" H 8000 3275 50  0001 C CNN "MFG Name"
-F 5 "MJTP1117" H 8000 3275 50  0001 C CNN "MFG Part Num"
-	1    8000 3275
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_Small R136
 U 1 1 5DE73A97
 P 8375 2725
@@ -1119,25 +1093,8 @@ F 5 "CRCW04021K00JNED" H 8375 2725 50  0001 C CNN "MFG Part Num"
 	1    8375 2725
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_Small R137
-U 1 1 5DE79351
-P 8400 3275
-F 0 "R137" V 8475 3275 50  0000 C CNN
-F 1 "1K" V 8325 3275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 3275 50  0001 C CNN
-F 3 "~" H 8400 3275 50  0001 C CNN
-F 4 "Vishay-Dale" H 8400 3275 50  0001 C CNN "MFG Name"
-F 5 "CRCW04021K00JNED" H 8400 3275 50  0001 C CNN "MFG Part Num"
-	1    8400 3275
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8475 2725 8700 2725
-Wire Wire Line
-	8700 2725 8700 3275
-Wire Wire Line
-	8700 3275 8500 3275
 Text Label 8700 2725 0    50   ~ 0
 VCC_BRD
 $Comp
@@ -1154,19 +1111,6 @@ F 5 "CRCW040210K0JNED" H 7575 2725 50  0001 C CNN "MFG Part Num"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R140
-U 1 1 5DE8E2B4
-P 7600 3275
-F 0 "R140" V 7675 3275 50  0000 C CNN
-F 1 "10K" V 7525 3275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7600 3275 50  0001 C CNN
-F 3 "~" H 7600 3275 50  0001 C CNN
-F 4 "Vishay-Dale" H 7600 3275 50  0001 C CNN "MFG Name"
-F 5 "CRCW040210K0JNED" H 7600 3275 50  0001 C CNN "MFG Part Num"
-	1    7600 3275
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0127
 U 1 1 5DE8F7AE
 P 7475 3000
@@ -1179,15 +1123,8 @@ F 3 "" H 7475 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7475 2725 7475 3000
-Wire Wire Line
-	7475 3275 7500 3275
-Connection ~ 7475 3000
-Wire Wire Line
-	7475 3000 7475 3275
 Text Label 7675 2725 1    50   ~ 0
 P04_GPIO_13
-Text Label 7700 3275 1    50   ~ 0
-P15_GPIO_22
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J12
 U 1 1 5DECCB17
@@ -1487,10 +1424,10 @@ F 5 "FDN358P" H 7650 5800 50  0001 C CNN "MFG Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J112
+L Connector_Generic:Conn_02x05_Counter_Clockwise J13
 U 1 1 5E71785A
 P 6025 7325
-F 0 "J112" H 6075 7650 50  0000 C CNN
+F 0 "J13" H 6075 7650 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 6075 7651 50  0001 C CNN
 F 2 "pwrcon:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_CC_SMD" H 6025 7325 50  0001 C CNN
 F 3 "~" H 6025 7325 50  0001 C CNN
@@ -1525,13 +1462,13 @@ $EndComp
 Text Label 5825 7225 2    50   ~ 0
 CC_nRESET
 Text Label 6325 7125 0    50   ~ 0
-SFL_CS
+SPI_CS_IN
 Text Label 6325 7325 0    50   ~ 0
-SFL_CLK
+SPI_CLK
 Text Label 6325 7425 0    50   ~ 0
-SFL_DOUT
+SPI_MOSI
 Text Label 6325 7525 0    50   ~ 0
-SFL_DIN
+SPI_MISO
 Text Label 3700 5625 2    50   ~ 0
 SPI_CLK
 Text Label 3700 5925 2    50   ~ 0
@@ -1600,8 +1537,6 @@ F 5 "ERJ-2GE0R00X" H 10600 2900 50  0001 C CNN "MFG Part Num"
 	1    10600 2900
 	0    1    1    0   
 $EndComp
-Text Label 10700 2900 0    50   ~ 0
-P15_GPIO_22
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J1
 U 1 1 5E84E636
@@ -2221,8 +2156,6 @@ F 5 "ERJ-2GE0R00X" H 10600 2600 50  0001 C CNN "MFG Part Num"
 	1    10600 2600
 	0    1    1    0   
 $EndComp
-Text Label 10700 2500 0    50   ~ 0
-P07_GPIO_16
 Text Label 10700 2600 0    50   ~ 0
 P06_GPIO_15
 Wire Wire Line
@@ -2272,19 +2205,6 @@ F 5 "'61300211121" H 4100 800 50  0001 C CNN "MFG Part Num"
 	1    4100 800 
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5FE5D961
-P 4425 800
-F 0 "J17" H 4505 792 50  0000 L CNN
-F 1 "Conn_01x02" H 4505 701 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4425 800 50  0001 C CNN
-F 3 "~" H 4425 800 50  0001 C CNN
-F 4 "Wurth Elektronik" H 4425 800 50  0001 C CNN "MFG Name"
-F 5 "'61300211121" H 4425 800 50  0001 C CNN "MFG Part Num"
-	1    4425 800 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4200 1000 4425 1000
 $Comp
@@ -2306,7 +2226,7 @@ U 1 1 5FE6B8FF
 P 4875 1400
 F 0 "C41" H 4650 1400 50  0000 L CNN
 F 1 "100uF" H 4650 1325 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4875 1400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4875 1400 50  0001 C CNN
 F 3 "~" H 4875 1400 50  0001 C CNN
 F 4 "Murata" H 4875 1400 50  0001 C CNN "MFG Name"
 F 5 "GRM31CR60J107ME39L" H 4875 1400 50  0001 C CNN "MFG Part Num"
@@ -2319,17 +2239,15 @@ U 1 1 5FEA9499
 P 5200 1400
 F 0 "C42" H 4975 1400 50  0000 L CNN
 F 1 "100uF" H 4975 1325 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5200 1400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5200 1400 50  0001 C CNN
 F 3 "~" H 5200 1400 50  0001 C CNN
 F 4 "Murata" H 5200 1400 50  0001 C CNN "MFG Name"
 F 5 "GRM31CR60J107ME39L" H 5200 1400 50  0001 C CNN "MFG Part Num"
 	1    5200 1400
 	-1   0    0    1   
 $EndComp
-Text Label 4325 1000 1    50   ~ 0
+Text Label 4425 1000 1    50   ~ 0
 VCC_BRD
-Text Label 4525 1000 0    50   ~ 0
-VCC_Buffer
 Text Label 4100 1000 2    50   ~ 0
 VCC_LDO_3V3
 Wire Wire Line
@@ -2493,4 +2411,12 @@ Wire Wire Line
 Connection ~ 1125 6800
 Text Label 1325 6800 0    50   ~ 0
 VCC_5V
+Text Label 3700 3425 2    50   ~ 0
+CC_nRESET
+Text Label 9350 700  0    50   ~ 0
+VCC_Buffer
+Text Label 9350 1200 3    50   ~ 0
+VCC_BRD
+Wire Wire Line
+	10475 5975 10575 5975
 $EndSCHEMATC
